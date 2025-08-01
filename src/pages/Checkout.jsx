@@ -33,7 +33,7 @@ function Checkout() {
     <div style={styles.pageWrapper}>
       <div style={styles.overlay} />
       <div style={styles.orderPlacedContainer}>
-        <h3>Thank you for your order, {name}!</h3>
+        <h1 style={{color: 'green' }}>Thank you for your order, {name}!</h1>
       </div>
     </div>
   );
